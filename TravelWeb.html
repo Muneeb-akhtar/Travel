@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+</head>
+<style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          text-decoration: none;
+      }
+      body{
+          font-family: sans-serif;
+      }
+      .logo{
+         font-size: 40px;
+         color: rgb(8, 245, 245);
+      }
+      .log{
+          font-size: 40px;
+          color: crimson;
+      }
+      #navbarSupportedContent{
+          padding-left: 13%;
+          font-size: 20px;
+
+          
+      }
+     
+      
+      .nav-item{
+        padding-left: 15%;
+        
+        
+      }
+    #text{
+        color: white;
+        text-align: center;
+        font-size: 80px;
+        
+    }
+    #text-2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 30px;
+        
+      }
+      .tit{
+        text-align: center;
+        color:crimson;
+      }
+      #off{
+        color: crimson;
+      }
+      .services .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+   gap: 0.5rem;
+}
+
+.services .box-container .box{
+   padding:3rem 2rem;
+   text-align: center;
+   background: purple;
+   cursor: pointer;
+}
+
+.services .box-container .box:hover{
+   background:rgb(255, 135, 155);
+}
+
+.services .box-container .box img{
+   height: 7rem;
+}
+
+.services .box-container .box h3{
+   color:white;
+   font-size: 1.7rem;
+   padding-top: 1rem;
+}
+#par{
+  display: flex;
+
+}
+#main{
+  background-image: url('img/header-bg-1.png');
+  height: 380px;
+}
+#main-2{
+   background-image: url('img/header-bg-2.png');
+   height: 380px;
+}
+#main-3{
+  background-image: url('img/footer-bg.jpg');
+  height: 500px;
+  background-position: center;
+}
+#text-4{
+  padding-top: 13%;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+#text-5{
+  padding-top: 6%;
+  text-align: center;
+  color: crimson;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+.text-5{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 10px;
+       
+        margin-top: 30px;
+        
+      }
+      .text-5 span{
+        color:crimson;
+      }
+      #btnn{
+        font-size: 25px;
+         background-color: crimson;
+         color: white;
+         padding-left: 1.5%;
+         padding-right: 2%;
+         padding-bottom: 3px;
+         padding-top: 3px;
+        border: 2px solid crimson;
+         border-radius: 6%;
+         display: inline-block;
+     }
+     #btnnn{
+        font-size: 25px;
+         background-color: crimson;
+         color: white;
+         padding-left: 1.5%;
+         padding-right: 2%;
+         padding-bottom: 3px;
+         padding-top: 3px;
+        border: 2px solid crimson;
+         border-radius: 6%;
+         display: inline-block;
+         margin-left: 34%;
+     }
+     #img{
+       width: 500px;
+       height: 400px;
+       object-fit: cover;
+       border-radius: 6px;
+     }
+     .card-title{
+           text-align: center;
+           color: rgb(243, 15, 243);
+           font-weight: 500;
+         }
+         .card-text{
+           text-align: center;
+           color: rgb(66, 64, 64);
+         }
+         .card-img-top{
+           border-radius: 20px;
+         }
+         #f-Name{
+        margin-left: 0.3%;
+        margin-top: 4%;
+        padding:2%;
+        padding-right: 55%;
+    }
+    #f-Email{
+        margin-left: 1%;
+        margin-top:2%;
+        padding:2%;
+        padding-right: 55%;
+    }
+    #f-About{
+        margin-left: 1%;
+        margin-top:2%;
+        padding:2%;
+        padding-right: 55%;
+        padding-bottom: 12%;
+
+
+    } 
+    #icon{
+      color:crimson;
+      font-size: 30px;
+      padding-left: 1%;
+    }
+    #footer{
+      text-align: center;
+      padding-top: 20px;
+      background-color: black;
+      color: crimson;
+      height: 10vh;
+      
+    }  
+</style>
+<body>
+    <section class="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="nav">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-5 " href="#"><l class="log">Tra</l><span class="logo">vel.</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Skills.Html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact US.html">Contact</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#"></a></li>
+                      <li><a class="dropdown-item" href="#">Muneeb</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">About</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+          <br>
+        <div class="container-fluid">
+          <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/home-slide-1.jpg" style="height:490px;"  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="text">TRAVEL AROUND THE WORLD</h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/home-slide-2.jpg" style="height:490px;"  class="d-block w-100" alt="...">
+                
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 id="text">MAKE YOUR TOUR WORTHWHILE</h1>
+                  <h1></h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/home-slide-3.jpg" style="height:490px;"  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 id="text">DISCOVER THE WORLD</h1>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    <div class="container-fluid col-11">
+            <div id="text-2">Services We <span id="off">Offer.</span>
+              <h4 class="tit ">---What We Provied---</h4>
+             <hr>
+            </div>
+    <br>
+    </div>
+    <section class="services">
+     <div class="container-fluid">
+        
+     
+        <div class="box-container">
+     
+           <div class="box">
+              <img src="img/icon-1.png" alt="">
+              <h3>Adventure</h3>
+           </div>
+     
+           <div class="box">
+              <img src="img/icon-2.png">
+              <h3>Tour Guide</h3>
+           </div>
+     
+           <div class="box">
+              <img src="img/icon-3.png" alt="">
+              <h3>Trekking</h3>
+           </div>
+     
+           <div class="box">
+              <img src="img/icon-4.png" alt="">
+              <h3>Camp Fire</h3>
+           </div>
+         <div class="box">
+              <img src="img/icon-5.png" alt="">
+              <h3>Best Ways</h3>
+           </div>
+     
+        </div>
+      </div>
+     </section>
+     <br>
+     <br>
+     <section id="main">
+       
+         
+         <div>
+          <h1 id="text-4">About Us</h1>
+         </div>
+         
+       </div>
+     </section>
+     <br>
+     <br>
+     <div  class="container col-12 col-sm-12 col-md-12 col-lg-12 " >
+     
+    <div class="container col-12">
+      <div class="row">
+      <div class="col-6 col-sm-12 col-md-6 col-lg-6  "  data-aos="fade-right">
+          <img id="img"  src="img/about-img.jpg" >
+      </div>
+      <div class="column-right col-6 col-sm-12 col-md-6 col-lg-6 ">
+      <div class="text-5" data-aos="fade-left">
+        Why <span>Choose US?</span>
+      </div>
+      <p id="tex" data-aos="fade-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, voluptate excepturi, illo, ab quas pariatur ea quae ipsam commodi minima tempora dolore at voluptatum tempore corporis nobis odio distinctio quidem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quisquam culpa maxime enim, eos ullam animi error natus dolor esse.</p>
+      <button id="btnn" class="animate__animated animate__backInRight">Learn More</button>
+      </div> 
+     </div>
+    </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <section id="main-2">
+    <h1 id="text-4">PACKAGES</h1>
+  </section>
+  
+  <h1 id="text-5">TOP DESTINATIONS</h1>
+  <br>
+  <div class="container-fluid">
+    <div class="card-group">
+      <div class="card">
+        <img src="img/img-3.jpg"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adventure & Tour</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <button id="btnnn" class="animate__animated animate__backInRight">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/img-1.jpg"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adventure & Tour</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <button id="btnnn" class="animate__animated animate__backInRight">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/img-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adventure & Tour</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <button id="btnnn" class="animate__animated animate__backInRight">Book Now</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <br>
+  <div class="container-fluid">
+    <div class="card-group">
+      <div class="card">
+        <img src="img/img-4.jpg"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adventure & Tour</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <button id="btnnn" class="animate__animated animate__backInRight">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/img-10.jpg"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adventure & Tour</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <button id="btnnn" class="animate__animated animate__backInRight">Book Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/img-8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adventure & Tour</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <button id="btnnn" class="animate__animated animate__backInRight">Book Now</button>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <br>
+  <section id="main-3">
+    <br>
+    <div class="container-fluid " data-aos="zoom-in">
+      <div class="row">
+        <div class="col-6 col-sm-12 col-md-6 col-lg-6">
+       <h4 style="color:crimson;">Get In Touch</h4>
+      <br>
+      <p id="tex" style="color: white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, voluptate excepturi, illo, ab quas pariatur ea quae ipsam commodi minima tempora dolore at voluptatum tempore corporis nobis odio distinctio quidem. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      
+        <i class="fa fa-user" id="icon" aria-hidden="true"> Travel.</i>
+          <br>
+          <br>
+          <i class="fa fa-map-marker" id="icon" aria-hidden="true"> Manhattan: 1880 Kimball Ave #200</i>
+          <br>
+          <br>
+          <i class="fa fa-envelope" id="icon" aria-hidden="true"> Travel@Gmail.com</i>
+         
+     
+      
+      
+      </div>
+      <br>
+      <div class=" col-6 col-sm-12 col-md-6 col-lg-6" data-aos="zoom-in">
+       
+          <h4 style="color:crimson;">Fill in the Form below to GET
+               instant access now!
+          </h4
+          >
+          
+          <label for="f-Name"></label>
+          <input type="text" id="f-Name" placeholder="Name..." required>
+ 
+          <label for="f-Email"></label>
+          <input type="text" id="f-Email" placeholder="Email..." required>
+          <label for="f-number"></label>
+          <input type="number" id="f-Email" placeholder="Phone..." required>
+         <label for="f-About you"></label>
+         <input type="text" id="f-About" placeholder="About You..." required>
+         <br>
+         <br>
+  
+  
+          <button id="btnnn">Send Message</button>
+        
+      </div>
+      </div>
+    </div>
+      
+</section>
+<footer id="footer">
+  <p>Created By Muneeb Copywrites/2022 All RIGHT RESEVERD</p>
+</footer>
+
+
+     
+  
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
