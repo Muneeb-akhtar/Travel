@@ -1,78 +1,76 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 body{
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 .logo{
-   font-size: 25px;
-   color: rgb(8, 245, 245);
+ font-size: 25px;
+ color: rgb(8, 245, 245);
 }
 .log{
-    font-size: 25px;
-    color: crimson;
+  font-size: 25px;
+  color: crimson;
 }
 #nav{
-  background-color: rgb(16, 15, 15);
-  
-  top: 0%;
-  width: 100%;
+background-color: rgb(16, 15, 15);
+z-index: 2;
+position: fixed;
+top: 0%;
+width: 100%;
 }
 #navbarSupportedContent{
-    padding-left: 25%;
-    font-size: 20px;
+  padding-left: 25%;
+  font-size: 20px;
 
-    
+  
 }
 
 
 .nav-item{
-  padding-left: 10%;
-  
-  
+padding-left: 18%;
+
+
 }
 #text{
-  color: white;
-  text-align: center;
-  font-size: 80px;
-  padding-bottom: 10%;
-  
-}
-#tex{
-  font-size: 18px;
+color: white;
+text-align: center;
+font-size: 80px;
+padding-bottom: 15%;
+
 }
 #te-2{
 color: white;
-  text-align: center;
-  font-size: 80px;
-  padding-bottom: 17%;
-  
+text-align: center;
+font-size: 80px;
+padding-bottom: 17%;
+
 }
 #te-3{
 color: white;
-  text-align: center;
-  font-size: 80px;
-  padding-bottom: 22%;
-  
+text-align: center;
+font-size: 80px;
+padding-bottom: 22%;
+
 }
 
 #text-2{
-  font-size: 40px;
-  font-weight: 500;
-  margin-bottom:  10px;
-  text-align: center;
-  margin-top: 30px;
-  
+font-size: 40px;
+font-weight: 500;
+margin-bottom:  10px;
+text-align: center;
+margin-top: 30px;
+
 }
 .tit{
-  text-align: center;
-  color:crimson;
+text-align: center;
+color:crimson;
 }
 #off{
-  color: crimson;
+color: crimson;
 }
 .services .box-container{
 display: grid;
@@ -132,78 +130,78 @@ font-size: 70px;
 text-transform: uppercase;
 }
 .text-5{
-  font-size: 40px;
-  font-weight: 500;
-  margin-bottom: 10px;
- 
-  margin-top: 30px;
-  
+font-size: 40px;
+font-weight: 500;
+margin-bottom: 10px;
+
+margin-top: 30px;
+
 }
 .text-5 span{
-  color:crimson;
+color:crimson;
 }
 #btnn{
-  font-size: 25px;
-   background-color: crimson;
-   color: white;
-   padding-left: 1.5%;
-   padding-right: 2%;
-   padding-bottom: 3px;
-   padding-top: 3px;
-  border: 2px solid crimson;
-   border-radius: 6%;
-   display: inline-block;
+font-size: 25px;
+ background-color: crimson;
+ color: white;
+ padding-left: 1.5%;
+ padding-right: 2%;
+ padding-bottom: 3px;
+ padding-top: 3px;
+border: 2px solid crimson;
+ border-radius: 6%;
+ display: inline-block;
 }
 #btnnn{
-  font-size: 25px;
-   background-color: crimson;
-   color: white;
-   padding-left: 1.5%;
-   padding-right: 2%;
-   padding-bottom: 3px;
-   padding-top: 3px;
-  border: 2px solid crimson;
-   border-radius: 6%;
-   display: inline-block;
-   margin-left: 32%;
+font-size: 25px;
+ background-color: crimson;
+ color: white;
+ padding-left: 1.5%;
+ padding-right: 2%;
+ padding-bottom: 3px;
+ padding-top: 3px;
+border: 2px solid crimson;
+ border-radius: 6%;
+ display: inline-block;
+ margin-left: 34%;
 }
 #img{
- width: 500px;
- height: 400px;
- object-fit: cover;
- border-radius: 6px;
+width: 500px;
+height: 400px;
+object-fit: cover;
+border-radius: 6px;
 }
 .card-title{
-     text-align: center;
-     color: rgb(90, 89, 90);
-     font-weight: 500;
-     font-size: 30px;
-   }
-   .card-text{
-     text-align: center;
-     color: rgb(66, 64, 64);
-   }
-   .card-img-top{
-     border-radius: 20px;
-   }
-   #f-Name{
-  margin-left: 0.3%;
-  margin-top: 4%;
-  padding:2%;
-  padding-right: 55%;
+   text-align: center;
+   color: rgb(90, 89, 90);
+   font-weight: 500;
+   font-size: 30px;
+ }
+ .card-text{
+   text-align: center;
+   color: rgb(66, 64, 64);
+ }
+ .card-img-top{
+   border-radius: 20px;
+ }
+ #f-Name{
+margin-left: 0.3%;
+margin-top: 4%;
+padding:2%;
+padding-right: 55%;
 }
 #f-Email{
-  margin-left: 1%;
-  margin-top:2%;
-  padding:2%;
-  padding-right: 55%;
+margin-left: 1%;
+margin-top:2%;
+padding:2%;
+padding-right: 55%;
 }
 #f-About{
-  margin-left: 1%;
-  margin-top:2%;
-  padding:2%;
-  padding-right: 55%;
-  padding-bottom: 12%;
+margin-left: 1%;
+margin-top:2%;
+padding:2%;
+padding-right: 55%;
+padding-bottom: 12%;
 
 
 } 
